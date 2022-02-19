@@ -2,11 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+   
     
+}
+h1{
+    transition: 0.3s;
+    position: relative;
+    animation-name: h1;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+@keyframes h1{
+    from{
+        bottom: 50px;
+    }
+    to{
+        bottom: 0px;
+    }
 }
 .containerinti{
     padding: 80px 200px 0px 200px;
     background-color: #e4dfdf;
+    
 }
 body{
     background-color: #e4dfdf;
@@ -58,15 +75,32 @@ main img{
     border-radius: 50%;
     width: 350px;
     margin-top: 50px;
+    margin-left: 15%;
+    transition: 0.3s;
+    position: relative;
+    animation-name: geser;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    
+}
+@keyframes geser{
+    from{
+        right: 100px;
+    }
+    to{
+        right: 0px;
+    }
 }
 main .container{
     float: right;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 60px;
     color: #4e4e4e;
+    margin-right: 20%;
 }
 main .container h1{
     font-size: 80px;
+  
     
 }
 main .container h2{
@@ -108,6 +142,20 @@ main .container h3{
 main .container p{
     line-height: 25px;
     margin-bottom: 100px;
+    transition: 0.3s;
+    position: relative;
+    animation-name: dua;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    
+}
+@keyframes dua{
+    from{
+        bottom: 50px;
+    }
+    to{
+        bottom: 0px;
+    }
 }
 
 .clear{
@@ -152,8 +200,8 @@ main .container p{
 }
 .contact{
     float: right;
-    padding-top: 8px;
-    padding-right: 105px;
+    padding-top: 2px;
+    padding-right: 107px;
  
 }
 .follow {
@@ -179,7 +227,7 @@ main .container p{
 
 
 
-@media screen and (min-width:960px){
+@media screen and (min-width:800px){
     .closebtn{
         display: none;
     }
@@ -191,9 +239,6 @@ main .container p{
     }
     
 }
-
-
-
 
 
 @media screen and (max-width:680px){
@@ -233,9 +278,9 @@ main .container p{
       .sidenav a:hover {
         color: #f1f1f1;
       }
-     .sidenav .closebtn{
-         font-size: 30px;
-     }
+      .sidenav .closebtn {
+          font-size: 40px;
+      }
       
 
 
@@ -255,7 +300,7 @@ main .container p{
         float: left;
   
         width: 100%;
-        height: 450px;
+        height: 360px;
         color: #49d0d3;
         text-decoration: none;
     
@@ -269,14 +314,14 @@ main .container p{
         font-size: 30px;
         font-weight: bold;
         margin-top: 12%;
-        margin-left: 10%;
-        padding-right: 30%
+        margin-left: 7%;
+        padding-right: 43%
       
         
     }
     .logo h3{
         font-size: 15px;
-        margin-left: 10%;
+        margin-left: 7%;
         margin-bottom: 10px;
        
     }
@@ -288,26 +333,26 @@ main .container p{
     main img{
         width: 250px;
         margin-top: 15px;
-        margin-left: 45px;
+        margin-left: 69px;
         margin-bottom: 20px;
       
         
     }
    main .container h1{
     font-size: 50px;
-    padding-left: 5%;
+    padding-left: 7%;
    }
    main .container h2{
     font-size: 25px;
     font-weight: 100;
-    padding-left: 5%;
+    padding-left: 7%;
    }
    main .container h3{
     width: 100px;
     height: 100px;
     padding-top: 45px;
-    margin-left: 56px;
-    margin-right: -38px;
+    margin-left: 84px;
+    margin-right: -65px;
     margin-bottom: 0;
    }
    main .container p{
@@ -315,5 +360,7 @@ main .container p{
        margin-bottom: 40px;
    }
    
-      
+   .isi{
+      padding-top: 30px;
+   }
 }

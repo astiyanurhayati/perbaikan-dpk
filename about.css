@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+.containerinti{
+    padding: 80px 200px 0px 200px;
+    background-color: #e4dfdf;
+    
+}
+body{
+    background-color: #e4dfdf;
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.logo{
+    color: #4e4e4e;
+}
+header{
+    font-family: 'Lora', serif;
+    font-family: 'Martel', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    }
+nav ul{
+    float: right;
+    position: absolute;
+    right: 22%;
+    top: 130px;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #4e4e4e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a span{
+    color:#49d0d3;
+}
+nav ul li a:hover{
+    color: #49d0d3;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
