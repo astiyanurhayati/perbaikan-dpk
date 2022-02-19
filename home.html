@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Outfit&family=Quicksand:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <div class="containerinti">
+    <header>
+        <nav>
+            <div class="logo">
+            <h1>Astiya Nurhayati</h1>
+            <h3>Frontend Developer</h3>
+            <hr>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="#"><span>HOME</span></a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            </div>
+            <span class="click" style="font-size:30px;cursor:pointer; float:right;" onclick="openNav()">&#9776; </span>
+
+                <script>
+                function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                }
+
+                function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                }
+                </script>
+   
+        </nav>
+    </header>
+    <main>
+        <img class="foto1" src="avatar.jpg" alt="">
+        <div class="container">
+            <h1>Hello, </h1>
+            <h2>a bit about me:</h2>
+                <h3 ><a href="#"> About Me</a></h3>
+                <span><h3><a href="#"> My Work</a></h3></span>
+                <div class="avatarhp">
+                    <img src="avatar.jpg">
+                </div>
+            <p class="perkenalan">Nama saya Siti Astiya Nurhayati, Saya merupakan <br>pelajar di SMK Wikrama Bogor, jurusan <br>Pengembangan Perangkat Lunak dan Gim(PPLG).<br> Click tombol di atas untuk informasi lebih lengkap tentang saya. </p>
+        </div>
+        
+    </main>
+</div>
+
+<div class="clear"></div>
+    <footer>
+        <div class="flexbox">
+            <div class="isi">
+                <i class="fas fa-phone-square-alt"></i>
+                <div class="dalem">
+                <h3>Call</h3>
+                <p>0856-9403-1604</p>
+                </div>
+            </div>
+            <div class="isi">
+                <i class="fas fa-envelope-square"></i>
+                <div class="contact">
+                <h3>Contact</h3>
+                <p>astiyanurhayati18<br>@gmail.com</p>
+                </div>
+            </div>
+            <div class="isi">
+                <i class="fa-solid fa-circle-plus"></i>
+                <div class="follow">
+                <h3>follow Me</h3>
+                <p> <a href="https://www.instagram.com/astiynn_/"> Instagram: @astiynn_</a></p>
+                </div>
+            </div>
+            <div class="isi">
+                <i class="fa-solid fa-copyright"></i>
+                <div class="cpy">
+                <p>© 2022-Siti Astiya Nurhayati</p>
+                </div>
+            </div>
+            
+
+
+        </div>
+    </footer>
+</body>
+</html>
