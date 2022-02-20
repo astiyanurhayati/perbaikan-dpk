@@ -5,21 +5,7 @@
    
     
 }
-h1{
-    transition: 0.3s;
-    position: relative;
-    animation-name: h1;
-    animation-duration: 1.5s;
-    animation-fill-mode: both;
-}
-@keyframes h1{
-    from{
-        bottom: 50px;
-    }
-    to{
-        bottom: 0px;
-    }
-}
+
 .containerinti{
     padding: 80px 200px 0px 200px;
     background-color: #e4dfdf;
@@ -32,6 +18,10 @@ body{
     font-size: 35px;
     font-weight: bold;
     
+    
+}
+.logo h3{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .logo{
@@ -49,7 +39,7 @@ nav ul{
     float: right;
     position: absolute;
     right: 22%;
-    top: 130px;
+    top: 127px;
     text-decoration: none;
 }
 nav ul li a{
@@ -124,11 +114,16 @@ main .container h3{
 }
 main .container h3:hover{
     background-color: #af394b;
+    color: bl;
     
 }
 main .container h3 a{
     color: white;
     text-decoration: none;
+    transition: 0.3s;
+}
+main .container h3 a:hover{
+    color: #4e4e4e;
 }
 main .container span h3{
   background-color: #49d0d3;
@@ -187,21 +182,23 @@ main .container p{
 .isi i{
     font-size: 50px;
 }
-.isi p{
+.isi p a{
     font-size: 12px;
     font-family: sans-serif;
+    color: white;
+    text-decoration: none;
 }
 .dalem{
     
     float: right;
     padding-top: 8px;
-    padding-right: 110px;
+    padding-right: 80px;
  
 }
 .contact{
     float: right;
     padding-top: 2px;
-    padding-right: 107px;
+    padding-right: 35px;
  
 }
 .follow {
@@ -210,7 +207,7 @@ main .container p{
     padding-top: 8px;
   
 }
-.follow p a{
+.p{
     color: white;
     text-decoration: none;
 }
@@ -218,8 +215,9 @@ main .container p{
 
 .cpy{
     float: right;
-    padding-right: 45px;
+    padding-right: 0px;
     padding-top: 17px;
+    margin-right: -8px;
 }
 
 
@@ -237,11 +235,16 @@ main .container p{
     .avatarhp{
         display: none;
     }
-    
+    .perkenalan2{
+        display: none;
+    }
 }
 
 
 @media screen and (max-width:680px){
+    .perkenalan{
+        display: none;
+    }
     .foto1{
         display: none;
     }
@@ -259,7 +262,7 @@ main .container p{
         z-index: 1;
         top: 0;
        right: 0;
-        background-color: #111;
+        background-color: #322626;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;

@@ -1,58 +1,415 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-   
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     
-}
-
-.containerinti{
-    padding: 80px 200px 0px 200px;
-    background-color: #e4dfdf;
-    
-}
-body{
-    background-color: #e4dfdf;
-}
-.logo h1{
-    font-size: 35px;
-    font-weight: bold;
-    
-}
-
-.logo{
-    color: #4e4e4e;
-}
-header{
-    font-family: 'Lora', serif;
-    font-family: 'Martel', serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto Slab', serif;
+        
     }
-nav ul{
-    float: right;
-    position: absolute;
-    right: 22%;
-    top: 130px;
-    text-decoration: none;
-}
-nav ul li a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #4e4e4e;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    transition: 0.3s;
-}
-nav ul li a span{
-    color:#49d0d3;
-}
-nav ul li a:hover{
-    color: #49d0d3;
-}
-nav ul li{
-    display: inline-block;
-    margin: 0 15px;
-}
+    h1{
+        transition: 0.3s;
+        position: relative;
+        animation-name: h1;
+        animation-duration: 1.5s;
+        animation-fill-mode: both;
+    }
+    .containerinti{
+        padding: 80px 200px 0px 200px;
+        background-color: #e4dfdf;
+        
+    }
+    body{
+        background-color: #e4dfdf;
+    }
+    .logo h1{
+        font-size: 35px;
+        font-weight: bold;
+        
+    }
+    .logo h3{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .logo{
+        color: #4e4e4e;
+    }
+    header{
+        font-family: 'Lora', serif;
+        font-family: 'Martel', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    nav ul{
+        float: right;
+        position: absolute;
+        right: 22%;
+        top: 127px;
+        text-decoration: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        font-size: 15px;
+        color: #4e4e4e;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+    nav ul li a span{
+        color:#49d0d3;
+    }
+    nav ul li a:hover{
+        color: #49d0d3;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 0 15px;
+    }
+    .hrnav{
+        width: 100%;
+    }
+    main h1{
+        font-size: 80px;
+        margin-top: 100px;
+        font-weight: 100;
+        margin-bottom: 30px;
+        color: #4e4e4e;
+        font-family: 'Lora', serif;
+        font-family: 'Martel', serif;
+        font-family: 'Merriweather', serif;
+        font-family: 'Outfit', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Slab', serif;
+    }
+    .dataasti  img{
+        width: 135px;
+        border-radius: 50%;
+        margin-top: 30px;
+        height: 135px;
+    }
+    .dataasti{
+        display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    height: 200px;
+    }
+    hr{
+        width: 80%;
+    }
+    .kanan{
+        margin-top: 55px;
+    margin-left: 30px;
+    }
+    .kanan p{
+        margin-right: 100px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 13px;
+        color: #4e4e4e;
+    }
+    .kiri{
+        margin-top: 5px;
+    }
+    .hr{
+        width: 150px;
+    }
+    .kiri i{
+        font-size: 30px;
+    background-color: #49D0CB;
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 5px;
+    }
+    .kiri h2{
+        font-weight: 100;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #4e4e4e;
+    }
+    .clear{
+        clear: both;
+    }
+    .pendidikan .lingkaran{
+            width: 130px;
+        height: 130px;
+        background-color: #de4159;
+        border-radius: 50%;
+        text-align: center;
+        padding-top: 55px;
+        color: white;
+    }
+    .pendidikan{
+        display: flex;
+        flex-direction: row;
+        float: left;
+        width: 100%;
+        height: 160px;
+        margin-top: 30px;
+        
+    }
+    .pendidikan h3{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+    }
+    
+    .isilingkaran{
+        margin-left: 50px;
+        margin-top: 30px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: 'Roboto Slab', serif;
+        color: #4e4e4e;
+    }
+   .tengah{
+    margin-top: -13px;
+    }
+
+    .flexbox{
+   
+        display: flex;
+        background-color: #de4159;
+        float: left;
+        width: 100%;
+        height: 150px;
+        color:#49d0d3;
+        text-decoration: none;
+        padding-left: 150px;
+        margin-top: 100px;
+    
+    }
+    .flexbox h3, .flexbox p{
+        color:white;
+    }
+    
+    .isi{
+       
+        padding-top: 50px;
+        width: 250px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .isi i{
+        font-size: 50px;
+    }
+    .isi p a{
+        font-size: 12px;
+        font-family: sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    .dalem{
+        
+        float: right;
+        padding-top: 8px;
+        padding-right: 80px;
+     
+    }
+    .contact{
+        float: right;
+        padding-top: 2px;
+        padding-right: 35px;
+     
+    }
+    .follow {
+        float: right;
+        padding-right: 75px;
+        padding-top: 8px;
+      
+    }
+    .p{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    .cpy{
+        float: right;
+        padding-right: 0px;
+        padding-top: 17px;
+        margin-right: -8px;
+    }
+
+    
+
+    @media screen and (min-width:800px){
+        .closebtn{
+            display: none;
+        }
+        .click{
+            display: none;
+        }
+        .avatarhp{
+            display: none;
+        }
+        .bahasa{
+            display: none;
+        }
+        
+    }
+
+    @media screen and (max-width:680px){
+       
+        .closebtn{
+            position: absolute;
+            top: 5%;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+           right: 0;
+            background-color: #322626;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+          }
+          
+          .sidenav a {
+            padding: 5px 5px 5px 32px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+            margin-top: 20px;
+          }
+          
+          .sidenav a:hover {
+            color: #f1f1f1;
+          }
+          .sidenav .closebtn {
+              font-size: 40px;
+          }
+          
+    
+    
+          body{
+              margin: 0;
+              padding: 0;
+          }
+          .containerinti{
+            padding: 0;
+            background-color: #e4dfdf;
+        }
+
+        .logo h1{
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 12%;
+            margin-left: 7%;
+            padding-right: 43%
+          
+            
+        }
+        .logo h3{
+            font-size: 15px;
+            margin-left: 7%;
+            margin-bottom: 10px;
+           
+        }
+        .click{
+            position: absolute;
+            left: 85%;
+            top: 9%;
+        }
+        .flexbox{
+        
+            display: flex;
+            flex-direction: column;
+          
+            float: left;
+      
+            width: 100%;
+            height: 450px;
+            color: #49d0d3;
+            text-decoration: none;
+        
+        }
+        .flexbox{
+            padding-left: 40px;
+            margin-left: 0;
+        }
+
+
+        .kiri{
+            display: none;
+        }
+        main h1{
+            font-size: 40px;
+            margin-top: 25px;
+            margin-bottom: 5px;
+            margin-left: 5%;
+        }
+        .dataasti{
+            display: flex;
+            flex-direction: column;
+            
+            width: 100%;
+            height: 330px;
+        }
+        .dataasti img{
+            margin-left: 5%;
+        }
+        .kanan p{
+            margin-right: 35px;
+            margin-top: -40px;
+        }
+        .pendidikan{
+            display: flex;
+            flex-direction: column;
+            float: left;
+            width: 100%;
+            height: 270px;
+            margin-top: 30px;
+        }
+        .pendidikan .lingkaran{
+            margin-left: 6%;
+            width: 110px;
+            height: 110px;
+            background-color: #de4159;
+            border-radius: 50%;
+            text-align: center;
+            padding-top: 50px;
+            color: white;
+        }
+        .pendidikan h3{
+            font-size: 13px;
+            
+        }
+        .isilingkaran{
+            margin-left: 11%;
+        margin-top: 21px;
+        font-size: 15px;
+        line-height: 20px;
+        font-family: 'Roboto Slab', serif;
+        color: #4e4e4e;
+        }
+        .bahasa i{
+            font-size: 30px;
+            background-color: #49D0CB;
+            color: white;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            padding-top: 5px;
+            
+        }
+        .bahasa{
+            margin-left: 8%;
+            margin-top: 30px;
+        }
+        .bahasa h2{
+            margin-bottom: 5px;
+        }
+        .isi i{
+            font-size: 45px;
+        }
+    }

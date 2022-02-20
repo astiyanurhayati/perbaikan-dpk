@@ -13,48 +13,53 @@
 </head>
 <body>
     <div class="containerinti">
-    <header>
-        <nav>
-            <div class="logo">
-            <h1>Astiya Nurhayati</h1>
-            <h3>Frontend Developer</h3>
-            <hr>
-            </div>
-            <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <ul>
-                <li><a href="#"><span>HOME</span></a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-            </div>
-            <span class="click" style="font-size:30px;cursor:pointer; float:right;" onclick="openNav()">&#9776; </span>
+            <header>
+                <nav>
+                    <div class="logo">
+                    <h1>Astiya Nurhayati</h1>
+                    <h3>Frontend Developer</h3>
+                    <hr>
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <li><a href="#"><span>HOME</span></a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="#">PROJECT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                    </div>
+                    <span class="click" style="font-size:30px;cursor:pointer; float:right;" onclick="openNav()">&#9776; </span>
 
-                <script>
-                function openNav() {
-                document.getElementById("mySidenav").style.width = "250px";
-                }
+                        <script>
+                        function openNav() {
+                        document.getElementById("mySidenav").style.width = "250px";
+                        }
 
-                function closeNav() {
-                document.getElementById("mySidenav").style.width = "0";
-                }
-                </script>
-   
-        </nav>
-    </header>
+                        function closeNav() {
+                        document.getElementById("mySidenav").style.width = "0";
+                        }
+                        </script>
+        
+                </nav>
+            </header>
     </div>
     <main>
         <img class="foto1" src="avatar.jpg" alt="">
         <div class="container">
             <h1>Hello, </h1>
             <h2>a bit about me:</h2>
-                <h3 ><a href="#"> About Me</a></h3>
+            <div><a href="about.html">
+                <h3><a href="about.html"> About Me</a></h3>
                 <span><h3><a href="#"> My Work</a></h3></span>
                 <div class="avatarhp">
                     <img src="avatar.jpg">
                 </div>
+                </a>
+            </div>
             <p class="perkenalan">Nama saya Siti Astiya Nurhayati, Saya merupakan <br>pelajar di SMK Wikrama Bogor, jurusan <br>Pengembangan Perangkat Lunak dan Gim(PPLG).<br> Click tombol di atas untuk informasi lebih lengkap tentang saya. </p>
+            <p class="perkenalan2">Nama saya Siti Astiya Nurhayati, Saya merupakan pelajar di SMK Wikrama Bogor, jurusan Pengembangan Perangkat Lunak dan Gim(PPLG).Click tombol di atas untuk informasi lebih lengkap tentang saya. </p>
+
         </div>
         
     </main>
@@ -74,14 +79,14 @@
                 <i class="fas fa-envelope-square"></i>
                 <div class="contact">
                 <h3>Contact</h3>
-                <p>astiyanurhayati18<br>@gmail.com</p>
+                <p>  <a href="mailto: astiyanurhayati18@gmail.com">astiyanurhayati18 @gmail.com</a></p>
                 </div>
             </div>
             <div class="isi">
                 <i class="fa-solid fa-circle-plus"></i>
                 <div class="follow">
                 <h3>follow Me</h3>
-                <p> <a href="https://www.instagram.com/astiynn_/"> Instagram: @astiynn_</a></p>
+                <p class="a"> <a href="https://www.instagram.com/astiynn_/"> Instagram: @astiynn_</a></p>
                 </div>
             </div>
             <div class="isi">
