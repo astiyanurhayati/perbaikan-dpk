@@ -5,10 +5,7 @@
    
     
 }
-.perkenalan2{
-    padding-left: 10%;
-    margin-bottom: 40px;
-}
+
 
 
 
@@ -121,8 +118,8 @@ main .container h3{
 
 }
 main .container h3:hover{
-    background-color: #af394b;
-    color: bl;
+    background-color: #a33747;
+    color: #4e4e4e;
     
 }
 main .container h3 a{
@@ -375,5 +372,10 @@ main .container p{
    
    .isi{
       padding-top: 30px;
+   }
+
+   .perkenalan2{
+       clear: both;
+       padding-left: 8%;
    }
 }
