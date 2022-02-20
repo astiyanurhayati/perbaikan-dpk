@@ -5,6 +5,12 @@
    
     
 }
+.perkenalan2{
+    padding-left: 10%;
+    margin-bottom: 40px;
+}
+
+
 
 .containerinti{
     padding: 80px 200px 0px 200px;
@@ -90,12 +96,14 @@ main .container{
 }
 main .container h1{
     font-size: 80px;
-  
+    margin-left: 6%;
     
 }
 main .container h2{
     font-size: 40px;
     font-weight: 100;
+    margin-left: 6%;
+
 }
 main .container h3{
     display: flex;
@@ -142,8 +150,10 @@ main .container p{
     animation-name: dua;
     animation-duration: 1.5s;
     animation-fill-mode: both;
+ 
     
 }
+
 @keyframes dua{
     from{
         bottom: 50px;
