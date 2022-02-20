@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Outfit&family=Quicksand:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <title>Home</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="projek.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather&family=Outfit&family=Quicksand:wght@500&family=Roboto+Slab&display=swap" rel="stylesheet">
+        <title>Projeck</title>
+    </head>
 <body>
     <div class="containerinti">
-            <header>
-                <nav>
-                    <div class="logo">
+        <header>
+            <nav>
+                <div class="logo">
                     <h1>Astiya Nurhayati</h1>
                     <h3>Frontend Developer</h3>
                     <hr>
@@ -23,15 +23,16 @@
                     <div id="mySidenav" class="sidenav">
                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <ul>
-                        <li><a href="index.html"><span>HOME</span></a></li>
+                        <li><a href="index.html">HOME</a></li>
                         <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="projek.html">PROJECT</a></li>
+                        <li><a href="#"><span>PROJECT</span></a></li>
                         <li><a href="#">CONTACT</a></li>
                     </ul>
+
                     </div>
                     <span class="click" style="font-size:30px;cursor:pointer; float:right;" onclick="openNav()">&#9776; </span>
-
-                        <script>
+                    
+                    <script>
                         function openNav() {
                         document.getElementById("mySidenav").style.width = "250px";
                         }
@@ -40,32 +41,38 @@
                         document.getElementById("mySidenav").style.width = "0";
                         }
                         </script>
-        
-                </nav>
-            </header>
+                   
+            </nav>
+        </header>
     </div>
+
     <main>
-        <img class="foto1" src="avatar.jpg" alt="">
-        <div class="container">
-            <h1>Hello, </h1>
-            <h2>a bit about me:</h2>
-            <div><a href="about.html">
-                
-                <a href="about.html"><h3> About Me</h3></a>
-                <a href="projek.html"><span><h3> My Work</h3></span></a>
-                <div class="avatarhp">
-                    <img src="avatar.jpg">
-                </div>
-                </a>
-            </div>
-            <p class="perkenalan">Nama saya Siti Astiya Nurhayati, Saya merupakan <br>pelajar di SMK Wikrama Bogor, jurusan <br>Pengembangan Perangkat Lunak dan Gim(PPLG).<br> Click tombol di atas untuk informasi lebih lengkap tentang saya. </p>
-            <div class="perkenalan2">
-            <p>Nama saya Siti Astiya Nurhayati, Saya merupakan pelajar di SMK Wikrama Bogor, jurusan Pengembangan Perangkat Lunak dan Gim(PPLG).Click tombol di atas untuk informasi lebih lengkap tentang saya. </p>
+        <h1>My Project</h1>
+        <hr>
+        <div class="projek">
+           <a href="https://wikrama-by-astiya.netlify.app/"> <img src="wk.png" alt=""></a>
+            <div class="isiprojek">
+            <h2>Projek | 01</h2>
+            <hr>
+                <h3>SMK WIKRAMA WEBSITE</h3>
+            <p>website ini adalah website sekolah pertama yang pernah saya buat. Informasi tentang SMK Wikrama di dalamnya cukup lengkap. Namun website ini masih belum responsive untuk mobile</p>
             </div>
         </div>
-        
+        <div class="clear"></div>
+        <div class="projek2">
+        <div class="projek">
+           
+            <a href="https://kotabogor-by-astiya.netlify.app"><img src="bogor.png"></a>
+            <div class="isiprojek">
+                <h2>Projek | 02</h2>
+                <hr>
+                <h3>Blog Kota Bogor</h3>
+                <p>ini adalah website blog tentang kota Bogor. Di dalamnya terdapat informasi-informasi tentang wisata kota Bogor. Saya membuat website ini karena kota Bogor adalah kota kelahiran saya</p>
+       
+            </div>
+        </div>
+        </div>
     </main>
-</div>
 
 <div class="clear"></div>
     <footer>
@@ -81,7 +88,7 @@
                 <i class="fas fa-envelope-square"></i>
                 <div class="contact">
                 <h3>Contact</h3>
-                <p>  <a href="mailto: astiyanurhayati18@gmail.com">astiyanurhayati18 @gmail.com</a></p>
+                <p>  <a href="mailto: astiyanurhayati18@gmail.com">astiyanurhayati18@gmail.com</a></p>
                 </div>
             </div>
             <div class="isi">
@@ -98,8 +105,8 @@
                 </div>
             </div>
             
-
-
+    
+    
         </div>
     </footer>
 </body>

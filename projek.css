@@ -64,96 +64,34 @@ nav ul li{
     margin: 0 15px;
 }
 
-main img{
-    border-radius: 50%;
-    width: 350px;
-    margin-top: 50px;
-    margin-left: 15%;
-    transition: 0.3s;
+main{
+    padding: 80px 200px 0px 200px;
+    background-color: #e4dfdf;
+}
+.projek img{
+    width: 450px;
+    margin-top: 30px;
+    height: 250px;
+    
+}
+main h1{
+    font-size: 70px;
+    margin-top: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-family: 'Lora', serif;
+    font-family: 'Martel', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #4e4e4e;
     position: relative;
     animation-name: geser;
     animation-duration: 1.5s;
     animation-fill-mode: both;
-    
 }
 @keyframes geser{
-    from{
-        right: 100px;
-    }
-    to{
-        right: 0px;
-    }
-}
-main .container{
-    float: right;
-    font-family: 'Times New Roman', Times, serif;
-    margin-top: 60px;
-    color: #4e4e4e;
-    margin-right: 20%;
-}
-main .container h1{
-    font-size: 80px;
-    margin-left: 6%;
-    
-}
-main .container h2{
-    font-size: 40px;
-    font-weight: 100;
-    margin-left: 6%;
-
-}
-main .container h3{
-    display: flex;
-    background-color: #de4159;
-    width: 130px;
-    height: 130px;
-    display: inline-block;
-    text-align: center;
-    padding-top: 55px;
-    border-radius: 50%;
-    margin-right: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    transition: 0.3s;
-    font-size: 15px;
-    color: white;
-
-}
-main .container h3:hover{
-    background-color: #a33747;
-    color: #4e4e4e;
-    
-}
-main .container h3 a{
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
-}
-main .container h3 a:hover{
-    color: #4e4e4e;
-}
-main .container span h3{
-  background-color: #49d0d3;
-}
-main .container span h3:hover{
-    background-color: #2c9799;
-}
-main .container h3{
-   margin: 20px 0px 50px 20px;
-   
-}
-main .container p{
-    line-height: 25px;
-    margin-bottom: 100px;
-    transition: 0.3s;
-    position: relative;
-    animation-name: dua;
-    animation-duration: 1.5s;
-    animation-fill-mode: both;
- 
-    
-}
-
-@keyframes dua{
     from{
         bottom: 50px;
     }
@@ -161,10 +99,66 @@ main .container p{
         bottom: 0px;
     }
 }
+.projek h2{
+    position: relative;
+    animation-name: kiri;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+}
+@keyframes {
+    from{
+        left: 50px;
+    }
+    to{
+        left: 0px;
+    }
+}
+.projek{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 100%;
+    height: 200px;
+    
+}
 
+.isiprojek{
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #4e4e4e;
+}
+.isiprojek h2{
+    width: 100px;
+    height: 100px;
+    background-color: #49d0d3;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 41px;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.isiprojek h3{
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5px;
+}
+.isiprojek p{
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+}
 .clear{
     clear: both;
 }
+.projek2{
+    margin-top: 150px;
+}
+
+
+
 .flexbox{
    
     display: flex;
@@ -175,6 +169,7 @@ main .container p{
     color:#49d0d3;
     text-decoration: none;
     padding-left: 150px;
+    margin-top: 200px;
 
 }
 .flexbox h3, .flexbox p{
@@ -230,10 +225,6 @@ main .container p{
 }
 
 
-
-
-
-
 @media screen and (min-width:800px){
     .closebtn{
         display: none;
@@ -249,14 +240,7 @@ main .container p{
     }
 }
 
-
 @media screen and (max-width:680px){
-    .perkenalan{
-        display: none;
-    }
-    .foto1{
-        display: none;
-    }
     .closebtn{
         position: absolute;
         top: 5%;
@@ -293,33 +277,15 @@ main .container p{
       .sidenav .closebtn {
           font-size: 40px;
       }
-      
 
 
       body{
-          margin: 0;
-          padding: 0;
-      }
-      .containerinti{
+        margin: 0;
         padding: 0;
-        background-color: #e4dfdf;
     }
-      .flexbox{
-        
-        display: flex;
-        flex-direction: column;
-      
-        float: left;
-  
-        width: 100%;
-        height: 360px;
-        color: #49d0d3;
-        text-decoration: none;
-    
-    }
-    .flexbox{
-        padding-left: 40px;
-        margin-left: 0;
+    .containerinti{
+      padding: 0;
+      background-color: #e4dfdf;
     }
 
     .logo h1{
@@ -328,57 +294,88 @@ main .container p{
         margin-top: 12%;
         margin-left: 7%;
         padding-right: 43%
-      
+    
         
     }
     .logo h3{
         font-size: 15px;
         margin-left: 7%;
         margin-bottom: 10px;
-       
+    
     }
     .click{
         position: absolute;
         left: 85%;
         top: 9%;
     }
-    main img{
-        width: 250px;
-        margin-top: 15px;
-        margin-left: 69px;
-        margin-bottom: 20px;
-      
-        
+    .clear{
+        clear: both;
     }
-   main .container h1{
-    font-size: 50px;
-    padding-left: 7%;
+    .flexbox{
+
+        display: flex;
+        flex-direction: column;
+    
+        float: left;
+
+        width: 100%;
+        height: 450px;
+        color: #49d0d3;
+        text-decoration: none;
+
+    }
+    .flexbox{
+        padding-left: 40px;
+        margin-left: 0;
+        margin-top: 300px;
+    
+    }
+
+
+   main{
+       padding: 0;
    }
-   main .container h2{
-    font-size: 25px;
-    font-weight: 100;
-    padding-left: 7%;
+   main h1{
+    margin-left: 7%;
+    font-size: 35px;
+    margin-top: 20px;
    }
-   main .container h3{
-    width: 100px;
-    height: 100px;
-    padding-top: 45px;
-    margin-left: 84px;
-    margin-right: -65px;
-    margin-bottom: 0;
-    transition: 0.1s;
+   .projek{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    height: 200px
    }
-   main .container p{
-       margin-left: 7%;
-       margin-bottom: 40px;
+   .isiprojek{
+    margin-right: 30px;
+   }
+   .projek img{
+    width: 330px;
+    margin-top: 30px;
+    height: 180px;
+    margin-left: 6%;
+   }
+   .isiprojek h2{
+    width: 80px;
+    height: 80px;
+    padding-top: 32px;
+    font-size: 13px;
+    margin-top: -35px;
+   }
+   .isiprojek h3{
+    margin-top: 15px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5px;
+    font-size: 15px;
+   }
+   .isiprojek p{
+    font-size: 13px;
+    padding-right: 20px;
+   }
+   .projek2{
+    margin-top: 250px;
    }
    
-   .isi{
-      padding-top: 30px;
-   }
 
-   .perkenalan2{
-       clear: both;
-       padding-left: 8%;
-   }
 }
