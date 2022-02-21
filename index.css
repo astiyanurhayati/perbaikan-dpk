@@ -349,14 +349,17 @@ main .container p{
     margin-bottom: 20px;
         
     }
+    main .container{
+        margin-right: 0;
+    }
    main .container h1{
     font-size: 50px;
-    padding-left: 7%;
+    padding-left: 6%;
    }
    main .container h2{
     font-size: 25px;
     font-weight: 100;
-    padding-left: 7%;
+    padding-left: 6%;
    }
    main .container h3{
     width: 100px;
@@ -368,7 +371,7 @@ main .container p{
     transition: 0.1s;
    }
    main .container p{
-       margin-left: 7%;
+       margin-left: 0;
        margin-bottom: 40px;
    }
    
