@@ -6,9 +6,6 @@
     
 }
 
-
-
-
 .containerinti{
     padding: 80px 200px 0px 200px;
     background-color: #e4dfdf;
@@ -37,7 +34,7 @@ header{
     font-family: 'Outfit', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto Slab', serif;
-    }
+}
 nav ul{
     float: right;
     position: absolute;
@@ -105,7 +102,7 @@ main h1{
     animation-duration: 1.5s;
     animation-fill-mode: both;
 }
-@keyframes {
+@keyframes{
     from{
         left: 50px;
     }
