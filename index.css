@@ -373,6 +373,7 @@ main .container p{
    main .container p{
        margin-left: 0;
        margin-bottom: 40px;
+       padding-right: 12px;
    }
    
    .isi{
